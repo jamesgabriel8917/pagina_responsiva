@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #f1f1f1;
+    padding: 20px;
+    text-align: center;
+}
+
+.dashboard-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 50px;
+}
+
+.process-container {
+    height: 200px;
+    background-color: #7effb2;
+    border-radius: 8px;
+}
